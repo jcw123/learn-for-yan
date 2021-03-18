@@ -14,7 +14,7 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         System.out.print("请输入第一个操作数:");
         float firstNum = sc.nextInt();
-        System.out.print("请输入第二个操作数:");
+        System.out.print("请输入第二个操作数1:");
         float secondNum = sc.nextInt();
         System.out.println("a+b="+m.add(firstNum,secondNum)+"\na-b="+m.sub(firstNum,secondNum)+"\na*b="+m.mul(firstNum,secondNum)+"\na/b="+m.div(firstNum,secondNum));
     }
