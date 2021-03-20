@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class CirculationTest {
     //实现一个方法，入参n是一个int型，实现1 + 2 + 3 + ... + n之和。考虑n小于0和等于0的情况
+    // remark : 方法的首字母不要大小，遵循驼峰式命名规则
+    // remark :没有考虑 a < 0的情况
+    // remark: 像这样纯粹的方法，并没有和外部的类有复杂的交互，可以不用捕获异常，
+    // remark : 将累加的结果通过方法的返回值返回，不要直接打印出来
     public static void Circulation(int a) throws Exception {
         int sum=0;
         try {
