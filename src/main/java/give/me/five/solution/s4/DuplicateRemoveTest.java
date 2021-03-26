@@ -38,11 +38,13 @@ ex：
         for(Integer n :s) {
             num.add(n);
         }
-        String[] arr = num.toArray(new String[num.size()]);
-        for(String str: arr){
-            System.out.println(str);
+        int[] result = new int[num.size()];
+        int i = 0;
+        for (Integer integer : num) {
+            result[i++] = integer;
         }
-        return null;
+        return result;
+
     }
 
 //    public int[] removeDuplicatKey(int[] s){
