@@ -3,6 +3,7 @@ package give.me.five.solution.s6;
 import java.util.Timer;
 import java.util.TimerTask;
 
+// remark: good
 public class PrintHelloWorldTest extends TimerTask{
         public void run() {
             System.out.println("Hello World");
