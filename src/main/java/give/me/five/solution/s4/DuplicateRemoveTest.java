@@ -2,8 +2,6 @@ package give.me.five.solution.s4;
 
 import java.util.*;
 
-import static javafx.scene.input.KeyCode.T;
-
 public class DuplicateRemoveTest {
 //都有哪几种方法给我讲一下
     // 请补充这个方法的实现， 给定一个整型数组，将其中的重复元素移除，返回一个不包含重复元素的数组
