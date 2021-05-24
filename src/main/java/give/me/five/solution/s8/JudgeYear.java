@@ -19,5 +19,10 @@ public class JudgeYear {
         System.out.println("请输入要判断的年份");
         JudgeYear result=new JudgeYear();
         System.out.println(result.isLeapYear(year.nextInt()));
+        //订单列表jimdb集群扩容验证
+//        System.out.println(Math.abs("OrderListKey1jd_YzQTJkzjQdYU".hashCode())%3);
+
+
     }
 }
+//+Math.abs("".hashCode())%3+Math.abs("OrderListKey1jd_YzQTJkzjQdYU".hashCode())%3
